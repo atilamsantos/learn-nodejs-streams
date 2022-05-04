@@ -1,14 +1,22 @@
-#Learning about Node.js Streams
+# Node.js Streams
 
-##Installing dependencies
+## Dependencias
+```npm i -D nodemon```
+```npm i axios```
 
-- npm i -D nodemon
+# Executando
+```npm run client```
+```npm run server```
 
-# Readable streams
+
+# Anotações
+
+## Readable streams
  - Podem ser arquivos, transmissões de audio, videos, tudo que está chegando.
 
-# Transform
+## Transform
  - Ler uma fonte de dado (Readable), transforma para tratar o dado, converte, formatar ou qualquer coisa que necessite alterar os dados e passa para o Writable Stream.
 
-# Writeable streams
+## Writeable streams
  - Escrever em algum lugar, finalizar o processo, notificar alguem, escrever em um arquivo, ou seja, finalizando o processo.
+
