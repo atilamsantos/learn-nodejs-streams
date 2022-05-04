@@ -1,0 +1,28 @@
+{
+  "name": "learn-nodejs-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilamsantos/learn-nodejs-streams.git"
+  },
+  "keywords": [],
+  "author": "Atila Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atilamsantos/learn-nodejs-streams/issues"
+  },
+  "homepage": "https://github.com/atilamsantos/learn-nodejs-streams#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
